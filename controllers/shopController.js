@@ -6,3 +6,11 @@ exports.getShop = (req, res) => {
       script: 'shop'
     });
   };
+
+  exports.getwomenGuide = (req, res) => {
+    res.render('womenGuide', {
+      title: 'womenGuide',
+      stylesheet: 'womenGuide', 
+      script: 'womenGuide'
+    });
+  };

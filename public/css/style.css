@@ -288,3 +288,11 @@ nav .brand-logo {
 .page-footer .container {
   text-align: center;
 }
+
+.hero-section-guide{
+    
+  background: url('/images/background.jpg') no-repeat center center/cover;
+  height: 40vh !important;
+  position: relative;
+  color: white;
+}
