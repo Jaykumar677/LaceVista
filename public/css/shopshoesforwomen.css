@@ -1,3 +1,21 @@
-.home{
-    background-color: aqua;
+/* womenGuide.css */
+
+/* Hero section */
+
+.hero-section-guide{
+    
+    background: url('/images/background.jpg') no-repeat center center/cover;
+    height: 40vh !important;
+    position: relative;
+    color: white;
 }
+.shop-hero-section {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+  }
