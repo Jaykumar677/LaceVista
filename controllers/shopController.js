@@ -14,3 +14,11 @@ exports.getShop = (req, res) => {
       script: 'womenGuide'
     });
   };
+
+  exports.customise = (req, res) => {
+    res.render('customise', {
+      title: 'customise',
+      stylesheet: 'customise', 
+      script: 'customise'
+    });
+  };

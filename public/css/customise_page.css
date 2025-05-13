@@ -1,1 +1,32 @@
-/* testing */
+/* Customisation Page Styles */
+.custom-hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/custom-shoes-bg.jpg') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  .custom-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .custom-hero-content p {
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .custom-section {
+    padding: 60px 20px;
+  }
+  
+  .custom-section h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .custom-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
