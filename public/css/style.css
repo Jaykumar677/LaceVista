@@ -296,3 +296,64 @@ nav .brand-logo {
   position: relative;
   color: white;
 }
+
+/* ================================
+   Customisation Page Styles
+   ================================ */
+
+   .custom-hero-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url('/images/loafer.jpg') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .custom-hero-content h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .custom-hero-content p {
+    font-size: 1.4rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Info Section */
+  .custom-section {
+    padding: 80px 20px;
+  }
+  
+  .custom-section h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .custom-section p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #555;
+  }
+  
+  /* Card-like styling for info blocks */
+  .custom-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+  }
+  

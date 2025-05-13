@@ -8,3 +8,10 @@ router.get('/shop',  shopController.getShop);
 router.get('/womenGuide', shopController.getwomenGuide)
 router.get('/customise', shopController.customise)
 module.exports = router;
+
+// controllers/shopController.js
+
+exports.customise = (req, res) => {
+    res.render('customise', { stylesheet: 'customise' }); // Key line!
+  };
+  
