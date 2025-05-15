@@ -15,6 +15,14 @@ exports.getShop = (req, res) => {
     });
   };
 
+  exports.getheelsW = (req, res) => {
+    res.render('heelsW', {
+      title: 'heelsW',
+      stylesheet: 'heelsW',
+      script: 'heelsW'
+    });
+  }
+
   exports.customise = (req, res) => {
     res.render('customise', {
       title: 'customise',

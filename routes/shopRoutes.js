@@ -7,6 +7,7 @@ const shopController = require('../controllers/shopController');
 router.get('/shop',  shopController.getShop);
 router.get('/womenGuide', shopController.getwomenGuide)
 router.get('/customise', shopController.customise)
+router.get('/heelsW', shopController.getheelsW)
 module.exports = router;
 
 // controllers/shopController.js
