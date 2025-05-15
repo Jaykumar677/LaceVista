@@ -23,6 +23,23 @@ exports.getShop = (req, res) => {
     });
   }
 
+  exports.getflats = (req, res) => {
+    res.render('flats', {
+      title: 'flats',
+      stylesheet: 'flats',
+      script: 'flats'
+    });
+  }
+
+  exports.getsneakers = (req, res) => {
+    res.render('sneakers', {
+      title: 'sneakers',
+      stylesheet: 'sneakers',
+      script: 'sneakers'
+    });
+  }
+
+
   exports.customise = (req, res) => {
     res.render('customise', {
       title: 'customise',

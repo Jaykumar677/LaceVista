@@ -8,6 +8,8 @@ router.get('/shop',  shopController.getShop);
 router.get('/womenGuide', shopController.getwomenGuide)
 router.get('/customise', shopController.customise)
 router.get('/heelsW', shopController.getheelsW)
+router.get('/sneakers', shopController.getsneakers)
+router.get('/flats', shopController.getflats)
 module.exports = router;
 
 // controllers/shopController.js
