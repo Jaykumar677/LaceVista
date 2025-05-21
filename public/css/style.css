@@ -293,6 +293,17 @@ nav .brand-logo {
   text-align: center;
 }
 
+.hero-section-guide{
+    
+  background: url('/images/background.jpg') no-repeat center center/cover;
+  height: 40vh !important;
+  position: relative;
+  color: white;
+}
+
+/* ================================
+   Heels
+   ================================ */
 input:focus {
   border-bottom: 2px solid #ff6f00 !important;
   box-shadow: none !important;
