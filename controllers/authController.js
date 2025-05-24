@@ -94,6 +94,7 @@ exports.getSignup = (req, res) => {
 // };
 
 exports.loginUser = async (req, res) => {
+
   const { email, password } = req.body;
   try {
     // console.log('Login Input:', req.body);
@@ -108,8 +109,8 @@ exports.loginUser = async (req, res) => {
         const products = await Product.find();
         res.render('admin/products', { products });
       }
-      else {
-        res.redirect('shop'); // Redirect to shop or home page
+      else if(userFind.role = "customer"){
+        res.redirect('/shop'); // Redirect to shop or home page
       }
     } else {
       res.render('login', { error: 'Invalid email or password' });
