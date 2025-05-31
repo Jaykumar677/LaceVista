@@ -1,6 +1,8 @@
 const sinon = require('sinon');
 const { expect } = require('chai');
 
+//Validating application state resets, which is important in session or security-related logic.
+
 describe('resetInactivityTimeout Function', () => {
   let activityTimer;
   function resetInactivityTimeout() {

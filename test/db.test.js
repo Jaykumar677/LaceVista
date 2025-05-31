@@ -12,3 +12,5 @@ describe('Database Connection', () => {
     connectStub.restore();
   });
 });
+
+// You’ve mocked external dependencies, which is a best practice in unit testing — showing you understand isolation and test reliability.

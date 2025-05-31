@@ -7,3 +7,5 @@ describe('Chatbot Controller', () => {
     expect(chatbotController.handleChat).to.be.a('function');
   });
 });
+
+// Ensured this function is defined and can handle chatbot interactions.

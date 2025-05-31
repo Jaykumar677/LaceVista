@@ -7,3 +7,5 @@ describe('Cart Controller', () => {
     expect(cartController.getCart).to.be.a('function');
   });
 });
+
+//  Ensured this function is defined (likely fetches a user's cart from the database).
